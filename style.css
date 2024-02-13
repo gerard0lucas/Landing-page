@@ -1730,6 +1730,17 @@ body.boxed-v #wrapper {
     .navigation-single .prev a {
         padding: .2em;
     }
+    .navmenu{
+        display: none;
+    }
+    .moblogo{
+        position: absolute;
+        z-index: 10;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        margin: 3%;
+    }
 }
 
 /*
