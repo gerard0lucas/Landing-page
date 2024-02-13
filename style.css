@@ -859,7 +859,7 @@ body.boxed-v #wrapper {
     color: #007BFF;
 }
 .text-content, .list-item {
-    color: #666;
+    color: white;
 }
 .highlight-list {
     list-style-type: square;
