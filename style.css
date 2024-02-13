@@ -699,9 +699,11 @@ body.boxed-v #wrapper {
 -------------------------------------------------------------------*/
 
 #header {
-    z-index: 2;
-    position: relative;
-    padding: 34px 0 70px;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
 }
 
 #header.sticky #nav {
@@ -732,11 +734,22 @@ body.boxed-v #wrapper {
     max-width: 200px;
 }
 
+.nav-ls li a{
+    color: white;
+    padding: 5px 10px;
+}
+.nav-ls li a:hover{
+    background-color: white;
+    color: #000;
+    transition: 0.3s;
+}
+
 /*------------------------------------------------------------------
 	6. navigation of the page styles / #nav
 -------------------------------------------------------------------*/
 
 #nav {
+    display: hidden;
     left: 0;
     right: 0;
     bottom: -38px;
@@ -745,6 +758,7 @@ body.boxed-v #wrapper {
     -webkit-transition: all ease .3s;
     transition: all ease .3s;
     font-family: "Ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff;
 }
 
 #nav .nav-list {
